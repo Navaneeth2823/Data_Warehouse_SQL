@@ -1,7 +1,7 @@
-README: Data Warehouse (PostgreSQL + pgAdmin + Power BI)
+ # **Data Warehouse** (PostgreSQL + pgAdmin + Power BI)
 
-Overview
---------
+## Overview
+---
 This repository contains the SQL artifacts and example datasets for a small data-warehouse implemented using a Bronze → Silver → Gold layered architecture. This README documents a pgAdmin-first workflow to:
 
 - Create the database & schemas
