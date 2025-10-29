@@ -1,0 +1,14 @@
+# Force Linguist to treat SQL files as SQL
+*.sql linguist-language=SQL
+scripts/** linguist-language=SQL
+tests/** linguist-language=SQL
+
+# Mark datasets and dashboard binaries as vendored so they don't skew language stats
+datasets/** linguist-vendored=true
+dashboard/*.pbix linguist-vendored=true
+
+# Optional: treat pbix as binary to avoid diffing
+dashboard/*.pbix binary
+
+# Ensure common text files are detected normally
+README* linguist-language=Markdown
